@@ -17,6 +17,10 @@ export default function Home() {
         <div className="mt-auto grid gap-y-1">
           <div className="flex items-center gap-x-2">
             <TablerExternalLink scope={18} />
+            <Link href={'https://blog.fodo.dev'}>Blog</Link>
+          </div>
+          <div className="flex items-center gap-x-2">
+            <TablerExternalLink scope={18} />
             <Link href={'https://github.com/enbraining'}>Github</Link>
           </div>
           <div className="flex items-center gap-x-2">
